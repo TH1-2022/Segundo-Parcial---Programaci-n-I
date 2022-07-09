@@ -1,5 +1,5 @@
 <?php 
-    require 'utils/autoload.php';
+    require 'autoload.php';
     
     function render($vista,$parametros){
         return require "../vistas/$vista.php";
