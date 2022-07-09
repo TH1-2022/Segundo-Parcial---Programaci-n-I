@@ -17,8 +17,8 @@
 
 
     
-    <form action="/login" method="post">
-        Usuario <input type="text" name="usuario"> <br />
+    <form action="Autenticar.php" method="post">
+        Usuario <input type="text" name="username"> <br />
         Password <input type="password" name="password"> <br />
         <input type="submit" value="Iniciar Sesión">
     </form>
