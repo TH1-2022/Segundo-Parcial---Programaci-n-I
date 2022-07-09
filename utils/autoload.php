@@ -8,11 +8,11 @@
         
     });
 
-    require_once "../config.php";
-    require_once "../utils/statusCodes.php";
-    require_once "../utils/sessions.php";
-    require_once "../utils/render.php";
-    require_once "../routing/routes.class.php";
+    require_once "config.php";
+    require_once "utils/statusCodes.php";
+    require_once "utils/sessions.php";
+    require_once "utils/render.php";
+    require_once "routing/routes.class.php";
 
     session_start();
 
