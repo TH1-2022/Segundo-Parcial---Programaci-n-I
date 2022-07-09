@@ -18,6 +18,7 @@
     <h1>Bienvenido</h1>
 
         <h3>Para Modificar sus datos, clique en <a href="modificarUsuario.php?">Modificar</a></h3>
+        <h3>Para postear algo, haga click en <a href="Postear.php?">Post</a></h3>
 
 
     <?php if(isset($_GET['modificado']) && $_GET['modificado'] === "true" ) :?>

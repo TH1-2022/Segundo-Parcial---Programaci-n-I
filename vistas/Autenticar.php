@@ -1,9 +1,9 @@
 <?php 
 
 require '../Controladores/SesionControlador.class.php';
-	$intentoLogueo = SesionControlador::IniciarSesion($_POST['username'],$_POST['password']);
+	$Contest = SesionControlador::IniciarSesion($_POST['username'],$_POST['password']);
 	
-	if (empty($intentoLogueo))
+	if (empty($Contest))
 	{
 		echo "<script>alert('Usuario no existe o password errado');window.history.back()</script>";
 	}else{
