@@ -1,9 +1,3 @@
-<?php 
-    require "../utils/autoload.php";
-
-     if(isset($_SESSION['autenticado']))
-        header("Location: /");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Fabrica de Chacinados - Bienvenido</h1>
+    <h1>Inicio de Sesión</h1>
     
     <form action="/login" method="post">
         Usuario <input type="text" name="usuario"> <br />
